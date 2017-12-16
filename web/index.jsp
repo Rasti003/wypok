@@ -24,6 +24,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Główna</a></li>
                 <li><a href="#">Dodaj</a></li>
+                <li><a href="#">Mikroblog</a></li>
                 <li><a href="#">Zaloguj się</a></li>
             </ul>
         </div>
@@ -92,7 +93,7 @@
 
 <footer class="footer">
     <div class="container">
-        <p class="navbar-text">Wypok- developed by <a href="http://javastart.pl">Rasti003</a></p>
+        <p class="navbar-text">Wypok- developed by <a href="https://github.com/Rasti003/wypok">Rasti003</a></p>
     </div>
 </footer>
 
