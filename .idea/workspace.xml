@@ -162,12 +162,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VoteType.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VoteType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/rasti/wypok/model/VoteType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="11" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionProvider.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pl/rasti/wypok/util/ConnectionProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,6 +228,8 @@
         <option value="$PROJECT_DIR$/src/pl/rasti/wypok/model/Discovery.java" />
         <option value="$PROJECT_DIR$/src/pl/rasti/wypok/model/Vote.java" />
         <option value="$PROJECT_DIR$/src/pl/rasti/wypok/model/VoteType.java" />
+        <option value="$PROJECT_DIR$/web/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/src/pl/rasti/wypok/util/ConnectionProvider.java" />
       </list>
     </option>
   </component>
@@ -261,7 +285,14 @@
               <item name="Wypok" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wypok" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="wypok" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wypok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wypok" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wypok" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Wypok" type="b2602c69:ProjectViewProjectNode" />
@@ -454,12 +485,12 @@
       <updated>1513192882746</updated>
       <workItem from="1513192886601" duration="4469000" />
       <workItem from="1513204040729" duration="57000" />
-      <workItem from="1513205225924" duration="11223000" />
+      <workItem from="1513205225924" duration="12684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15749000" />
+    <option name="totallyTimeSpent" value="17210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1259" y="0" width="1308" height="1047" extended-state="0" />
@@ -725,6 +756,24 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/rasti/wypok/util/ConnectionProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
