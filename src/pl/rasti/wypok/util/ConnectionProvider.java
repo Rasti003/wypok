@@ -10,17 +10,18 @@ public class ConnectionProvider {
 
 
     private static DataSource dataSource;
-    public static Connection getConnection() throws SQLException{
-        return getDataSource().getConnection();
 
+    public static Connection getConnection() throws SQLException {
+        return getDataSource().getConnection();
     }
-    public  static  DataSource getDataSource (){
-        if (dataSource == null){
+
+    public static DataSource getDataSource() {
+        if (dataSource == null) {
             try {
                 Context initialContext = new InitialContext();
-                Context envContext = (Context)  initialContext
+                Context envContext = (Context) initialContext
                         .lookup("java:comp/env");
-                DataSource ds =(DataSource) envContext.lookup("jdc/wypok");
+                DataSource ds =(DataSource) envContext.lookup("jdbc/wypok");
                 dataSource = ds ;
             } catch (NamingException e){
                 e.printStackTrace();
